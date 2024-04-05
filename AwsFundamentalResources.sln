@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsPublisher", "SqsPublishe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "SqsConsumer\SqsConsumer.csproj", "{24971CC4-BEF1-43CE-88E8-EFF8AC94F705}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "Customers.Api\Customers.Api.csproj", "{0A1E4817-8681-4207-BFF9-C253D1B2F730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2E8F3118-FE72-492B-B41E-16F3A7279344} = {B3557C7B-D728-427A-A334-3B8651A823E3}
 		{24971CC4-BEF1-43CE-88E8-EFF8AC94F705} = {B3557C7B-D728-427A-A334-3B8651A823E3}
+		{0A1E4817-8681-4207-BFF9-C253D1B2F730} = {B3557C7B-D728-427A-A334-3B8651A823E3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2E8F3118-FE72-492B-B41E-16F3A7279344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,9 @@ Global
 		{24971CC4-BEF1-43CE-88E8-EFF8AC94F705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24971CC4-BEF1-43CE-88E8-EFF8AC94F705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24971CC4-BEF1-43CE-88E8-EFF8AC94F705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1E4817-8681-4207-BFF9-C253D1B2F730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1E4817-8681-4207-BFF9-C253D1B2F730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1E4817-8681-4207-BFF9-C253D1B2F730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1E4817-8681-4207-BFF9-C253D1B2F730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

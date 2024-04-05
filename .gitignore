@@ -3,4 +3,7 @@ SqsPublisher/bin/
 SqsPublisher/obj/
 SqsConsumer/bin/
 SqsConsumer/obj/
+Customers.Api/bin/
+Customers.Api/obj/
+Customers.Api/.vscode
 
